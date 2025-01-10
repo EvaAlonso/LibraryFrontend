@@ -1,10 +1,14 @@
+import BookCard from "../../components/molecules/BookCard/BookCard"
 import Header from "../../components/molecules/Header/Header"
 
 const Home = () => {
     return (
       <>
         <Header />
-        <p>HOME PAGE</p>
+        <main className="home-page-container">
+          {/* ADD MORE CARDS */}
+          <BookCard />
+        </main>
       </>
     )
   }

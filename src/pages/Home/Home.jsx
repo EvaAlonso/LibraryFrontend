@@ -1,8 +1,10 @@
+import Header from "../../components/molecules/Header/Header"
 
 const Home = () => {
     return (
       <>
-          <p>HOME PAGE</p>
+        <Header />
+        <p>HOME PAGE</p>
       </>
     )
   }

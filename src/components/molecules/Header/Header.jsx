@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import LibraryLogo from "../../../assets/images/library-logo.png";
 import AdminButton from "../../atoms/AdminButton/AdminButton";
+import "./header.css";
 
 const Header = () => {
   return (

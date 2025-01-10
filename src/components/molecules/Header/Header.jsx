@@ -6,10 +6,14 @@ const Header = () => {
   return (
     <header className="header-container">
         <Link to={"/"}>
-            <img className="logo-container" src={LibraryLogo} alt="library-logo"></img>
+            <div className="library-logo-container">
+              <img className="library-logo" src={LibraryLogo} alt="library-logo"></img>
+            </div>
         </Link>
         <Link to={"/admin"}>
+          <div className="admin-button-container">
             <AdminButton />
+          </div> 
         </Link>   
     </header>
   )

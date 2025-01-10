@@ -2,7 +2,9 @@ import "./cancel-button.css";
 
 const CancelButton = () => {
   return (
-    <button className="cancel-btn"></button>
+    <button className="cancel-btn-container">
+        <p className="cancel-btn-text">CANCEL</p>
+    </button>
   )
 }
 

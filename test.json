@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "ISBN": "978-1-234-56789-0",
+        "title": "El laberinto de los susurros",
+        "genre": ["Aventura", "Fantasía"],
+        "author": ["Helena Rivas"],
+        "description": "Un joven descubre un portal hacia un mundo lleno de misterios donde cada decisión afecta el destino de su pueblo.",
+        "isAvailable": true
+    },
+    {
+        "id": 2,
+        "ISBN": "978-1-987-65432-1",
+        "title": "Sombras del pasado",
+        "genre": ["Misterio", "Thriller"],
+        "author": ["Juan Pérez"],
+        "description": "Un detective investiga un asesinato que lo conecta con un oscuro secreto de su infancia.",
+        "isAvailable": false
+    },
+    {
+        "id": 3,
+        "ISBN": "978-0-123-45678-9",
+        "title": "Estrellas fugaces",
+        "genre": ["Romance", "Drama"],
+        "author": ["Mariana López", "Carlos García"],
+        "description": "Dos almas perdidas encuentran el amor en un campamento de verano, pero un secreto amenaza con separarlos.",
+        "isAvailable": true
+    },
+    {
+        "id": 4,
+        "ISBN": "978-3-456-78901-2",
+        "title": "El código del olvido",
+        "genre": ["Ciencia ficción", "Suspense"],
+        "author": ["Diego Fernández"],
+        "description": "Una científica lucha por recuperar su memoria mientras descubre una conspiración mundial.",
+        "isAvailable": false
+    },
+    {
+        "id": 5,
+        "ISBN": "978-4-321-98765-0",
+        "title": "La melodía del silencio",
+        "genre": ["Música", "Biografía"],
+        "author": ["Julia Martínez"],
+        "description": "La vida de un prodigio musical que supera la adversidad y redefine su pasión.",
+        "isAvailable": true
+    },
+    {
+        "id": 6,
+        "ISBN": "978-5-678-90123-4",
+        "title": "Fronteras de cristal",
+        "genre": ["Historia", "Ensayo"],
+        "author": ["Roberto Sánchez"],
+        "description": "Un análisis sobre las divisiones culturales y políticas a lo largo de la historia humana.",
+        "isAvailable": false
+    },
+    {
+        "id": 7,
+        "ISBN": "978-6-543-21098-7",
+        "title": "Sombras en el viento",
+        "genre": ["Poesía"],
+        "author": ["Ana Gómez"],
+        "description": "Una recopilación de poemas que exploran la fragilidad de las emociones humanas.",
+        "isAvailable": true
+    },
+    {
+        "id": 8,
+        "ISBN": "978-0-765-43210-3",
+        "title": "En la mente del asesino",
+        "genre": ["Crimen", "Suspense"],
+        "author": ["Miguel Torres"],
+        "description": "Un perfilador criminal se enfrenta a un caso que lo lleva a cuestionar su propia cordura.",
+        "isAvailable": false
+    },
+    {
+        "id": 9,
+        "ISBN": "978-7-654-32109-6",
+        "title": "Horizontes perdidos",
+        "genre": ["Aventura", "Fantasía"],
+        "author": ["Camila Herrera"],
+        "description": "Un grupo de amigos busca un tesoro legendario mientras enfrenta desafíos mágicos.",
+        "isAvailable": true
+    },
+    {
+        "id": 10,
+        "ISBN": "978-8-432-10987-5",
+        "title": "El reloj del destino",
+        "genre": ["Ciencia ficción", "Romance"],
+        "author": ["Isabel Núñez"],
+        "description": "Dos viajeros del tiempo luchan por salvar su amor en medio de paradojas temporales.",
+        "isAvailable": false
+    },
+    {
+        "id": 11,
+        "ISBN": "978-9-876-54321-0",
+        "title": "Bajo las aguas oscuras",
+        "genre": ["Thriller", "Terror"],
+        "author": ["Víctor Ruiz"],
+        "description": "En un pueblo costero, extrañas desapariciones apuntan a un oscuro secreto bajo el océano.",
+        "isAvailable": true
+    },
+    {
+        "id": 12,
+        "ISBN": "978-1-234-56789-1",
+        "title": "Cenizas del paraíso",
+        "genre": ["Drama", "Filosofía"],
+        "author": ["Laura Mejía"],
+        "description": "Una exploración de las decisiones humanas y su impacto en la búsqueda de la felicidad.",
+        "isAvailable": false
+    },
+    {
+        "id": 13,
+        "ISBN": "978-2-345-67890-3",
+        "title": "La rebelión de los autómatas",
+        "genre": ["Ciencia ficción"],
+        "author": ["Andrés Gutiérrez"],
+        "description": "Los androides se rebelan contra sus creadores, poniendo en jaque a la humanidad.",
+        "isAvailable": true
+    },
+    {
+        "id": 14,
+        "ISBN": "978-3-210-98765-4",
+        "title": "Luz en la penumbra",
+        "genre": ["Espiritualidad", "Autoayuda"],
+        "author": ["Sofía Delgado"],
+        "description": "Una guía para encontrar esperanza en tiempos de dificultad.",
+        "isAvailable": false
+    },
+    {
+        "id": 15,
+        "ISBN": "978-4-567-89012-8",
+        "title": "El grito de la selva",
+        "genre": ["Aventura", "Ecología"],
+        "author": ["Rodrigo Valdés"],
+        "description": "Un activista lucha por salvar la selva amazónica de la destrucción.",
+        "isAvailable": true
+    },
+    {
+        "id": 16,
+        "ISBN": "978-5-432-10987-6",
+        "title": "Espejos rotos",
+        "genre": ["Drama", "Suspense"],
+        "author": ["Paola Estrada"],
+        "description": "Un escritor atrapado en una crisis creativa comienza a experimentar eventos paranormales.",
+        "isAvailable": false
+    },
+    {
+        "id": 17,
+        "ISBN": "978-6-321-09876-5",
+        "title": "Al filo de la eternidad",
+        "genre": ["Ciencia ficción", "Filosofía"],
+        "author": ["Felipe Vega"],
+        "description": "Una misión espacial se convierte en una reflexión sobre el propósito de la existencia.",
+        "isAvailable": true
+    },
+    {
+        "id": 18,
+        "ISBN": "978-7-890-12345-9",
+        "title": "Crónicas del inframundo",
+        "genre": ["Fantasía oscura"],
+        "author": ["Gabriela Paredes"],
+        "description": "Un guerrero debe enfrentarse a fuerzas demoníacas para rescatar a su amada.",
+        "isAvailable": false
+    },
+    {
+        "id": 19,
+        "ISBN": "978-8-543-21098-7",
+        "title": "Susurros en la nieve",
+        "genre": ["Romance", "Misterio"],
+        "author": ["Natalia Correa"],
+        "description": "Una escritora encuentra pistas de un antiguo amor en un remoto pueblo nevado.",
+        "isAvailable": true
+    },
+    {
+        "id": 20,
+        "ISBN": "978-9-210-98765-4",
+        "title": "La voz del desierto",
+        "genre": ["Historia", "Aventura"],
+        "author": ["Ignacio López"],
+        "description": "Un arqueólogo descubre un manuscrito que revela los secretos de una civilización perdida.",
+        "isAvailable": false
+    }
+]

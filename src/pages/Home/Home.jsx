@@ -6,8 +6,10 @@ const Home = () => {
       <>
         <Header />
         <main className="home-page-container">
-          {/* ADD MORE CARDS */}
-          <BookCard />
+          <div className="home-page-info-container">
+            {/* ADD MORE CARDS */}
+            <BookCard />
+          </div>
         </main>
       </>
     )

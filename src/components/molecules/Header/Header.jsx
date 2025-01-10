@@ -1,11 +1,16 @@
+import { Link } from "react-router-dom";
 import LibraryLogo from "../../../assets/images/library-logo.png";
 import AdminButton from "../../atoms/AdminButton/AdminButton";
 
 const Header = () => {
   return (
     <header>
-        <img src={LibraryLogo} alt="library-logo"></img>
-        <AdminButton />
+        <Link to={"/"}>
+            <img src={LibraryLogo} alt="library-logo"></img>
+        </Link>
+        <Link to={"/admin"}>
+            <AdminButton />
+        </Link>   
     </header>
   )
 }

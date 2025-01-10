@@ -4,9 +4,9 @@ import AdminButton from "../../atoms/AdminButton/AdminButton";
 
 const Header = () => {
   return (
-    <header>
+    <header className="header-container">
         <Link to={"/"}>
-            <img src={LibraryLogo} alt="library-logo"></img>
+            <img className="logo-container" src={LibraryLogo} alt="library-logo"></img>
         </Link>
         <Link to={"/admin"}>
             <AdminButton />

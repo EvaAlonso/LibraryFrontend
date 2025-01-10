@@ -1,4 +1,3 @@
-import FileInput from "../../atoms/FileInput/FileInput.jsx";
 import TextInput from "../../atoms/TextInput/TextInput.jsx";
 
 import "./form.css";
@@ -6,12 +5,24 @@ import "./form.css";
 const Form = () => {
   return (
     <form>
-        <TextInput />
-        <TextInput />
-        <TextInput />
-        <TextInput />
-        <FileInput />
-        <TextInput />
+        <label htmlFor="title">
+            <TextInput />
+        </label>
+        <label htmlFor="isbn">
+            <TextInput />
+        </label>
+        <label htmlFor="author">
+            <TextInput />
+        </label>
+        <label htmlFor="genre">
+            <TextInput />
+        </label>
+        <label htmlFor="img-url">
+            <TextInput />
+        </label>
+        <label htmlFor="description">
+            <TextInput />
+        </label>
     </form>
   )
 }

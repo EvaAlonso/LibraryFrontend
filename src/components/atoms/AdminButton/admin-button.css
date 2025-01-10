@@ -1,0 +1,15 @@
+.admin-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px ;
+    border-radius: 25px;
+    width: 150px;
+    font-family: Poppins;
+    margin-top: 25px;
+    font-weight: 700;
+    background-color: var(--color-1);
+    color: #fff;
+    
+}
+

@@ -192,7 +192,358 @@
                 ]
             }
         ],
-        "books": [],
+        "books": [
+            {
+                "id": 1,
+                "title": "Under the November Sky",
+                "ISBN": "978-1-234567-01-2",
+                "description": "A heartfelt journey of love and self-discovery as a young woman confronts her past while building a brighter future.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 1,
+                        "name": "Romance"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Shadows of the Heart",
+                "ISBN": "978-1-234567-02-9",
+                "description": "A story of heartbreak and redemption, where long-buried secrets come to light in the most unexpected ways.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 2,
+                        "name": "Drama"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "When Everything Stopped",
+                "ISBN": "978-1-234567-03-6",
+                "description": "In a world brought to a standstill, one woman must find strength and resilience to move forward against all odds.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "The Secrets of the Cathedral",
+                "ISBN": "978-1-234567-04-3",
+                "description": "An art historian unravels a centuries-old mystery hidden within the walls of a grand Italian cathedral.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "The Watchmaker of Florence",
+                "ISBN": "978-1-234567-05-0",
+                "description": "A brilliant watchmaker gets caught in a web of intrigue and conspiracy in Renaissance Florence.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Mystery"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "The Medici's Legacy",
+                "ISBN": "978-1-234567-06-7",
+                "description": "A gripping tale of power, betrayal, and the enduring influence of the Medici family.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Echoes of Tomorrow",
+                "ISBN": "978-1-234567-07-4",
+                "description": "In a future dystopia, humanity must grapple with the ethical consequences of technological progress.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 3,
+                        "name": "Sofia Elkhart"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "The Exodus of the Immortals",
+                "ISBN": "978-1-234567-08-1",
+                "description": "A thrilling saga of immortal beings on the run from a collapsing utopia.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 3,
+                        "name": "Sofia Elkhart"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+              "id": 9,
+              "title": "Beyond the Broken Stars",
+              "ISBN": "978-1-234567-09-8",
+              "description": "A desperate mission takes a small crew to the edges of the galaxy in search of hope.",
+              "isAvailable": true,
+              "authors": ["Sofia Elkhart"],
+              "genres": ["Space Opera"]
+            },
+            {
+              "id": 10,
+              "title": "The Days of Jade",
+              "ISBN": "978-1-234567-10-4",
+              "description": "A story steeped in magical realism, where everyday life intertwines with the supernatural in the heart of Mexico.",
+              "isAvailable": false,
+              "authors": ["Alejandro Cortázar"],
+              "genres": ["Magical Realism"]
+            },
+            {
+              "id": 11,
+              "title": "The Last Hummingbird",
+              "ISBN": "978-1-234567-11-1",
+              "description": "A poetic exploration of love, loss, and the mysteries of nature through the lens of magical realism.",
+              "isAvailable": true,
+              "authors": ["Alejandro Cortázar"],
+              "genres": ["Magical Realism"]
+            },
+            {
+              "id": 12,
+              "title": "Ashes in the Wind",
+              "ISBN": "978-1-234567-12-8",
+              "description": "A family saga set against the backdrop of a changing Mexico, where old traditions clash with modernity.",
+              "isAvailable": true,
+              "authors": ["Alejandro Cortázar"],
+              "genres": ["Family Saga"]
+            },
+            {
+              "id": 13,
+              "title": "Under the Paris Lights",
+              "ISBN": "978-1-234567-13-5",
+              "description": "A young woman finds unexpected love while uncovering secrets of the past in 1920s Paris.",
+              "isAvailable": true,
+              "authors": ["Claire Beaumont"],
+              "genres": ["Historical Romance"]
+            },
+            {
+              "id": 14,
+              "title": "The Lost Duke",
+              "ISBN": "978-1-234567-14-2",
+              "description": "A gripping tale of forbidden love and political intrigue in 18th-century France.",
+              "isAvailable": false,
+              "authors": ["Claire Beaumont"],
+              "genres": ["Historical Romance"]
+            },
+            {
+              "id": 15,
+              "title": "Whispers in Versailles",
+              "ISBN": "978-1-234567-15-9",
+              "description": "An enchanting romance set against the grandeur and decadence of Versailles.",
+              "isAvailable": true,
+              "authors": ["Claire Beaumont"],
+              "genres": ["Historical Fiction"]
+            },
+            {
+              "id": 16,
+              "title": "Operation Nemesis",
+              "ISBN": "978-1-234567-16-6",
+              "description": "A high-stakes espionage thriller where an undercover agent must prevent an international conspiracy.",
+              "isAvailable": true,
+              "authors": ["Dimitri Volkov"],
+              "genres": ["Spy Thriller"]
+            },
+            {
+              "id": 17,
+              "title": "The Invisible Traitor",
+              "ISBN": "978-1-234567-17-3",
+              "description": "A story of betrayal and loyalty as a Russian spy races to uncover a mole within the organization.",
+              "isAvailable": false,
+              "authors": ["Dimitri Volkov"],
+              "genres": ["Suspense"]
+            },
+            {
+              "id": 18,
+              "title": "Codes Below Zero",
+              "ISBN": "978-1-234567-18-0",
+              "description": "A gripping cold-war era tale of decoding secrets that could alter the course of history.",
+              "isAvailable": true,
+              "author": ["Dimitri Volkov"],
+              "genre": ["Thriller"]
+            },
+            {
+              "id": 19,
+              "title": "Roots in the Air",
+              "ISBN": "978-1-234567-19-7",
+              "description": "A poetic exploration of belonging and identity as a young woman searches for her roots in a foreign land.",
+              "isAvailable": true,
+              "authors": ["Natalia Ortega"],
+              "genres": ["Literary Fiction"]
+            },
+            {
+              "id": 20,
+              "title": "Voices of Paper",
+              "ISBN": "978-1-234567-20-3",
+              "description": "A collection of interconnected short stories reflecting the struggles and triumphs of modern feminism.",
+              "isAvailable": false,
+              "authors": ["Natalia Ortega"],
+              "genres": ["Short Stories"]
+            },
+            {
+              "id": 21,
+              "title": "The River That Unites Us",
+              "ISBN": "978-1-234567-21-0",
+              "description": "A family saga set in Buenos Aires, where generations are bound by the ever-flowing river of their homeland.",
+              "isAvailable": true,
+              "authors": ["Natalia Ortega"],
+              "genres": ["Family Drama"]
+            },
+            {
+              "id": 22,
+              "title": "The Perfect Tenant",
+              "ISBN": "978-1-234567-22-7",
+              "description": "A psychological thriller about a seemingly ideal tenant hiding a dark secret.",
+              "isAvailable": true,
+              "authors": ["Oliver Ashcroft"],
+              "genres": ["Psychological Thriller"]
+            },
+            {
+              "id": 23,
+              "title": "Shadows in the Mind",
+              "ISBN": "978-1-234567-23-4",
+              "description": "A suspenseful tale of deception and obsession as a detective dives into the mind of a criminal.",
+              "isAvailable": false,
+              "authors": ["Oliver Ashcroft"],
+              "genres": ["Crime Thriller"]
+            },
+            {
+              "id": 24,
+              "title": "The Impostor's Game",
+              "ISBN": "978-1-234567-24-1",
+              "description": "A master manipulator plays a dangerous game, leaving everyone questioning what is real.",
+              "isAvailable": true,
+              "authors": ["Oliver Ashcroft"],
+              "genres": ["Suspense"]
+            },
+            {
+              "id": 25,
+              "title": "The House of Jasmine",
+              "ISBN": "978-1-234567-25-8",
+              "description": "A moving family drama set in Morocco, where generations of women uncover long-buried secrets.",
+              "isAvailable": true,
+              "authors": ["Aisha Karim"],
+              "genres": ["Contemporary Fiction"]
+            },
+            {
+              "id": 26,
+              "title": "Children of the Sand",
+              "ISBN": "978-1-234567-26-5",
+              "description": "An evocative tale of tradition and change, as a family navigates the shifting sands of the modern world.",
+              "isAvailable": false,
+              "authors": ["Aisha Karim"],
+              "genres": ["Drama"]
+            },
+            {
+              "id": 27,
+              "title": "Secrets Beneath the Veil",
+              "ISBN": "978-1-234567-27-2",
+              "description": "A compelling narrative of love and sacrifice set in the heart of Marrakech.",
+              "isAvailable": true,
+              "authors": ["Aisha Karim"],
+              "genres": ["Romance"]
+            },
+            {
+              "id": 28,
+              "title": "The Sword of the Ancestors",
+              "ISBN": "978-1-234567-28-9",
+              "description": "An epic fantasy where a young warrior embarks on a quest to reclaim a magical sword tied to her family’s destiny.",
+              "isAvailable": true,
+              "authors": ["Liam O'Connor"],
+              "genres": ["Fantasy"]
+            },
+            {
+              "id": 29,
+              "title": "The Eternal Forest",
+              "ISBN": "978-1-234567-29-6",
+              "description": "A breathtaking adventure inspired by Celtic mythology, where ancient forests hold both wonder and danger.",
+              "isAvailable": false,
+              "authors": ["Liam O'Connor"],
+              "genres": ["Mythological Fantasy"]
+            },
+            {
+              "id": 30,
+              "title": "Chants of Éire",
+              "ISBN": "978-1-234567-30-2",
+              "description": "A spellbinding tale of magic and folklore in ancient Ireland, where songs wield unimaginable power.",
+              "isAvailable": true,
+              "authors": ["Liam O'Connor"],
+              "genres": ["Fantasy"]
+            }
+          ],
         "genres": [
             {
                 "id": 1,

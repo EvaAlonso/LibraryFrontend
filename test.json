@@ -193,7 +193,182 @@
             }
         ],
         "books": [],
-        "genres": [],
+        "genres": [
+            {
+                "id": 1,
+                "name": "Romance",
+                "books": [
+                    {
+                        "id": 1,
+                        "title": "Under the November Sky"
+                    },
+                    {
+                        "id": 13,
+                        "title": "Under the Paris Lights"
+                    },
+                    {
+                        "id": 14,
+                        "title": "The Lost Duke"
+                    },
+                    {
+                        "id": 27,
+                        "title": "Secrets Beneath the Veil"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Drama",
+                "books": [
+                    {
+                        "id": 2,
+                        "title": "Shadows of the Heart"
+                    },
+                    {
+                        "id": 21,
+                        "title": "The River That Unites Us"
+                    },
+                    {
+                        "id": 26,
+                        "title": "Children of the Sand"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Fiction",
+                "books": [
+                    {
+                        "id": 3,
+                        "title": "When Everything Stopped"
+                    },
+                    {
+                        "id": 4,
+                        "title": "The Secrets of the Cathedral"
+                    },
+                    {
+                        "id": 6,
+                        "title": "The Medici's Legacy"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Echoes of Tomorrow"
+                    },
+                    {
+                        "id": 8,
+                        "title": "The Exodus of the Inmortals"
+                    },
+                    {
+                        "id": 19,
+                        "title": "Roots in the Air"
+                    },
+                    {
+                        "id": 25,
+                        "title": "The House of Jasmine"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Mystery",
+                "books": [
+                    {
+                        "id": 5,
+                        "title": "The Watchmaker of Florence"
+                    },
+                    {
+                        "id": 15,
+                        "title": "Whispers in Versailles"
+                    },
+                    {
+                        "id": 17,
+                        "title": "The Invisible Traitor"
+                    },
+                    {
+                        "id": 24,
+                        "title": "The Impostor's Game"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Adventure",
+                "books": [
+                    {
+                        "id": 9,
+                        "title": "Beyond the Broken Stars"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Realism",
+                "books": [
+                    {
+                        "id": 10,
+                        "title": "The Days of Jade"
+                    },
+                    {
+                        "id": 11,
+                        "title": "The Last Hummingbird"
+                    },
+                    {
+                        "id": 20,
+                        "title": "Voices of Paper"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Family Saga",
+                "books": [
+                    {
+                        "id": 12,
+                        "title": "Ashes in the Wind"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Thriller",
+                "books": [
+                    {
+                        "id": 16,
+                        "title": "Operation Nemesis"
+                    },
+                    {
+                        "id": 18,
+                        "title": "Codes Below Zero"
+                    },
+                    {
+                        "id": 22,
+                        "title": "The Perfect Tenant"
+                    },
+                    {
+                        "id": 23,
+                        "title": "Shadows in the Mind"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Fantasy",
+                "books": [
+                    {
+                        "id": 28,
+                        "title": "The Sword of the Ancestors"
+                    },
+                    {
+                        "id": 29,
+                        "title": "The Eternal Forest"
+                    },
+                    {
+                        "id": 30,
+                        "title": "Chants of Éire"
+                    }
+                ]
+            }
+        ],
         "loans": [],
         "members": []
     }

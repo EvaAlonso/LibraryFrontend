@@ -369,7 +369,349 @@
                 ]
             }
         ],
-        "loans": [],
-        "members": []
+        "loans": [
+            {
+                "id": 1,
+                "loanDate": "2025-01-05",
+                "returnDate": "2025-01-20",
+                "member": {
+                  "id": 1,
+                  "name": "Ethan",
+                  "surname": "Williams"
+                },
+                "book": {
+                  "id": 1,
+                  "title": "Under the November Sky"
+                }
+            },
+            {
+                "id": 2,
+                "loanDate": "2025-01-06",
+                "returnDate": "2025-01-21",
+                "member": {
+                  "id": 2,
+                  "name": "Sophia",
+                  "surname": "Johnson"
+                },
+                "book": {
+                  "id": 5,
+                  "title": "The Watchmaker of Florence"
+                }
+            },
+            {
+                "id": 3,
+                "loanDate": "2025-01-07",
+                "returnDate": "2025-01-22",
+                "member": {
+                  "id": 3,
+                  "name": "Liam",
+                  "surname": "Brown"
+                },
+                "book": {
+                  "id": 6,
+                  "title": "The Medici's Legacy"
+                }
+            },
+            {
+                "id": 4,
+                "loanDate": "2025-01-08",
+                "returnDate": "2025-01-23",
+                "member": {
+                  "id": 4,
+                  "name": "Olivia",
+                  "surname": "Jones"
+                },
+                "book": {
+                  "id": 9,
+                  "title": "Beyond the Broken Stars"
+                }
+            },
+            {
+                "id": 5,
+                "loanDate": "2025-01-09",
+                "returnDate": "2025-01-24",
+                "member": {
+                  "id": 5,
+                  "name": "Noah",
+                  "surname": "Garcia"
+                },
+                "book": {
+                  "id": 7,
+                  "title": "Echoes of Tomorrow"
+                }
+            },
+            {
+                "id": 6,
+                "loanDate": "2025-01-10",
+                "returnDate": "2025-01-25",
+                "member": {
+                  "id": 6,
+                  "name": "Ava",
+                  "surname": "Martinez"
+                },
+                "book": {
+                  "id": 15,
+                  "title": "Whispers in Versailles"
+                }
+            },
+            {
+                "id": 7,
+                "loanDate": "2025-01-11",
+                "returnDate": "2025-01-26",
+                "member": {
+                  "id": 7,
+                  "name": "Isabella",
+                  "surname": "Lopez"
+                },
+                "book": {
+                  "id": 8,
+                  "title": "The Exodus of the Immortals"
+                }
+            },
+            {
+                "id": 8,
+                "loanDate": "2025-01-12",
+                "returnDate": "2025-01-27",
+                "member": {
+                  "id": 8,
+                  "name": "James",
+                  "surname": "Rodriguez"
+                },
+                "book": {
+                  "id": 12,
+                  "title": "Ashes in the Wind"
+                }
+            },
+            {
+                "id": 9,
+                "loanDate": "2025-01-13",
+                "returnDate": "2025-01-28",
+                "member": {
+                  "id": 9,
+                  "name": "Lucas",
+                  "surname": "Hernandez"
+                },
+                "book": {
+                  "id": 14,
+                  "title": "The Lost Duke"
+                }
+            },
+            {
+                "id": 10,
+                "loanDate": "2025-01-14",
+                "returnDate": "2025-01-29",
+                "member": {
+                  "id": 10,
+                  "name": "Mia",
+                  "surname": "Gonzalez"
+                },
+                "book": {
+                  "id": 22,
+                  "title": "The Perfect Tenant"
+                }
+            }
+        ],
+        "members": [
+            {
+              "id": 1,
+              "name": "Ethan",
+              "surname": "Williams",
+              "loans": [
+                {
+                  "id": 1,
+                  "book": {
+                    "id": 1,
+                    "title": "Under the November Sky"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Sophia",
+              "surname": "Johnson",
+              "loans": [
+                {
+                  "id": 2,
+                  "book": {
+                    "id": 5,
+                    "title": "The Watchmaker of Florence"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Liam",
+              "surname": "Brown",
+              "loans": [
+                {
+                  "id": 3,
+                  "book": {
+                    "id": 6,
+                    "title": "The Medici's Legacy"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Olivia",
+              "surname": "Jones",
+              "loans": [
+                {
+                  "id": 4,
+                  "book": {
+                    "id": 9,
+                    "title": "Beyond the Broken Stars"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Noah",
+              "surname": "Garcia",
+              "loans": [
+                {
+                  "id": 5,
+                  "book": {
+                    "id": 7,
+                    "title": "Echoes of Tomorrow"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "name": "Ava",
+              "surname": "Martinez",
+              "loans": [
+                {
+                  "id": 6,
+                  "book": {
+                    "id": 15,
+                    "title": "Whispers in Versailles"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "name": "Isabella",
+              "surname": "Lopez",
+              "loans": [
+                {
+                  "id": 7,
+                  "book": {
+                    "id": 8,
+                    "title": "The Exodus of the Immortals"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "name": "James",
+              "surname": "Rodriguez",
+              "loans": [
+                {
+                  "id": 8,
+                  "book": {
+                    "id": 12,
+                    "title": "Ashes in the Wind"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "name": "Lucas",
+              "surname": "Hernandez",
+              "loans": [
+                {
+                  "id": 9,
+                  "book": {
+                    "id": 14,
+                    "title": "The Lost Duke"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Mia",
+              "surname": "Gonzalez",
+              "loans": [
+                {
+                  "id": 10,
+                  "book": {
+                    "id": 22,
+                    "title": "The Perfect Tenant"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "name": "Charlotte",
+              "surname": "Wilson",
+              "loans": []
+            },
+            {
+              "id": 12,
+              "name": "Benjamin",
+              "surname": "Anderson",
+              "loans": []
+            },
+            {
+              "id": 13,
+              "name": "Amelia",
+              "surname": "Thomas",
+              "loans": []
+            },
+            {
+              "id": 14,
+              "name": "Elijah",
+              "surname": "Taylor",
+              "loans": []
+            },
+            {
+              "id": 15,
+              "name": "Harper",
+              "surname": "Moore",
+              "loans": []
+            },
+            {
+              "id": 16,
+              "name": "Henry",
+              "surname": "Martin",
+              "loans": []
+            },
+            {
+              "id": 17,
+              "name": "Ella",
+              "surname": "Lee",
+              "loans": []
+            },
+            {
+              "id": 18,
+              "name": "Alexander",
+              "surname": "Perez",
+              "loans": []
+            },
+            {
+              "id": 19,
+              "name": "Grace",
+              "surname": "White",
+              "loans": []
+            },
+            {
+              "id": 20,
+              "name": "Samuel",
+              "surname": "Harris",
+              "loans": []
+            }
+        ]
     }
 }

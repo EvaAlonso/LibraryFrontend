@@ -6,7 +6,9 @@
   --color-5: #d4f5f5;
   --color-6: #D9D9D9;
 }
-
+body { 
+  background-color: var(--color-2);
+}
 /* FONTS - Poppins */
 
   /* Thin - Regular, Italic */

@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Form } from "react-router-dom";
 
 import Home from "../pages/Home/Home.jsx";
 import Admin from "../pages/Admin/Admin.jsx";
@@ -14,7 +14,10 @@ export const router = createBrowserRouter([
         element: <Admin />
     },
     {
-        path: "/BookCardDetailed",
+        path: "/:bookId",
         element: <BookCardDetailed/>
-    }
+    },
+    {
+       path: "/admin/Form",
+       element: <Form/>    }
 ])

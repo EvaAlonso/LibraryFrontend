@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main className="content mt-5 mx-auto my-2">
+      <main className="content mt-5 mx-auto my-2 ">
         <div className="home-page-container">
 
           <div className="home-page-info-container">

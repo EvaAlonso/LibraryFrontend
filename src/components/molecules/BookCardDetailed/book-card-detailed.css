@@ -1,0 +1,42 @@
+.book-card-container-1 {
+    border: solid 3px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 50px;
+    padding-bottom: 15px;
+    background-color: var(--color-6);
+    font-family: poppins;
+    padding: 20px;
+
+}
+
+.book-card-container-1 img {
+    width: 215px;
+    height: 240px;
+    
+
+}
+
+.book-detailed-title-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.book-detailed-description-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.content-1 {
+    width: 90vw;
+    height: 90vh;
+    border: solid 1px;
+    background-color: var(--color-5);
+}
+.content-2 {
+    display: flex;
+   
+}
+
+.text {
+    font-family: poppins ;
+}

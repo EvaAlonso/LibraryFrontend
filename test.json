@@ -1,182 +1,1288 @@
-[
-    {
-        "id": 1,
-        "ISBN": "978-1-234-56789-0",
-        "title": "El laberinto de los susurros",
-        "genre": ["Aventura", "Fantasía"],
-        "author": ["Helena Rivas"],
-        "description": "Un joven descubre un portal hacia un mundo lleno de misterios donde cada decisión afecta el destino de su pueblo.",
-        "isAvailable": true
-    },
-    {
-        "id": 2,
-        "ISBN": "978-1-987-65432-1",
-        "title": "Sombras del pasado",
-        "genre": ["Misterio", "Thriller"],
-        "author": ["Juan Pérez"],
-        "description": "Un detective investiga un asesinato que lo conecta con un oscuro secreto de su infancia.",
-        "isAvailable": false
-    },
-    {
-        "id": 3,
-        "ISBN": "978-0-123-45678-9",
-        "title": "Estrellas fugaces",
-        "genre": ["Romance", "Drama"],
-        "author": ["Mariana López", "Carlos García"],
-        "description": "Dos almas perdidas encuentran el amor en un campamento de verano, pero un secreto amenaza con separarlos.",
-        "isAvailable": true
-    },
-    {
-        "id": 4,
-        "ISBN": "978-3-456-78901-2",
-        "title": "El código del olvido",
-        "genre": ["Ciencia ficción", "Suspense"],
-        "author": ["Diego Fernández"],
-        "description": "Una científica lucha por recuperar su memoria mientras descubre una conspiración mundial.",
-        "isAvailable": false
-    },
-    {
-        "id": 5,
-        "ISBN": "978-4-321-98765-0",
-        "title": "La melodía del silencio",
-        "genre": ["Música", "Biografía"],
-        "author": ["Julia Martínez"],
-        "description": "La vida de un prodigio musical que supera la adversidad y redefine su pasión.",
-        "isAvailable": true
-    },
-    {
-        "id": 6,
-        "ISBN": "978-5-678-90123-4",
-        "title": "Fronteras de cristal",
-        "genre": ["Historia", "Ensayo"],
-        "author": ["Roberto Sánchez"],
-        "description": "Un análisis sobre las divisiones culturales y políticas a lo largo de la historia humana.",
-        "isAvailable": false
-    },
-    {
-        "id": 7,
-        "ISBN": "978-6-543-21098-7",
-        "title": "Sombras en el viento",
-        "genre": ["Poesía"],
-        "author": ["Ana Gómez"],
-        "description": "Una recopilación de poemas que exploran la fragilidad de las emociones humanas.",
-        "isAvailable": true
-    },
-    {
-        "id": 8,
-        "ISBN": "978-0-765-43210-3",
-        "title": "En la mente del asesino",
-        "genre": ["Crimen", "Suspense"],
-        "author": ["Miguel Torres"],
-        "description": "Un perfilador criminal se enfrenta a un caso que lo lleva a cuestionar su propia cordura.",
-        "isAvailable": false
-    },
-    {
-        "id": 9,
-        "ISBN": "978-7-654-32109-6",
-        "title": "Horizontes perdidos",
-        "genre": ["Aventura", "Fantasía"],
-        "author": ["Camila Herrera"],
-        "description": "Un grupo de amigos busca un tesoro legendario mientras enfrenta desafíos mágicos.",
-        "isAvailable": true
-    },
-    {
-        "id": 10,
-        "ISBN": "978-8-432-10987-5",
-        "title": "El reloj del destino",
-        "genre": ["Ciencia ficción", "Romance"],
-        "author": ["Isabel Núñez"],
-        "description": "Dos viajeros del tiempo luchan por salvar su amor en medio de paradojas temporales.",
-        "isAvailable": false
-    },
-    {
-        "id": 11,
-        "ISBN": "978-9-876-54321-0",
-        "title": "Bajo las aguas oscuras",
-        "genre": ["Thriller", "Terror"],
-        "author": ["Víctor Ruiz"],
-        "description": "En un pueblo costero, extrañas desapariciones apuntan a un oscuro secreto bajo el océano.",
-        "isAvailable": true
-    },
-    {
-        "id": 12,
-        "ISBN": "978-1-234-56789-1",
-        "title": "Cenizas del paraíso",
-        "genre": ["Drama", "Filosofía"],
-        "author": ["Laura Mejía"],
-        "description": "Una exploración de las decisiones humanas y su impacto en la búsqueda de la felicidad.",
-        "isAvailable": false
-    },
-    {
-        "id": 13,
-        "ISBN": "978-2-345-67890-3",
-        "title": "La rebelión de los autómatas",
-        "genre": ["Ciencia ficción"],
-        "author": ["Andrés Gutiérrez"],
-        "description": "Los androides se rebelan contra sus creadores, poniendo en jaque a la humanidad.",
-        "isAvailable": true
-    },
-    {
-        "id": 14,
-        "ISBN": "978-3-210-98765-4",
-        "title": "Luz en la penumbra",
-        "genre": ["Espiritualidad", "Autoayuda"],
-        "author": ["Sofía Delgado"],
-        "description": "Una guía para encontrar esperanza en tiempos de dificultad.",
-        "isAvailable": false
-    },
-    {
-        "id": 15,
-        "ISBN": "978-4-567-89012-8",
-        "title": "El grito de la selva",
-        "genre": ["Aventura", "Ecología"],
-        "author": ["Rodrigo Valdés"],
-        "description": "Un activista lucha por salvar la selva amazónica de la destrucción.",
-        "isAvailable": true
-    },
-    {
-        "id": 16,
-        "ISBN": "978-5-432-10987-6",
-        "title": "Espejos rotos",
-        "genre": ["Drama", "Suspense"],
-        "author": ["Paola Estrada"],
-        "description": "Un escritor atrapado en una crisis creativa comienza a experimentar eventos paranormales.",
-        "isAvailable": false
-    },
-    {
-        "id": 17,
-        "ISBN": "978-6-321-09876-5",
-        "title": "Al filo de la eternidad",
-        "genre": ["Ciencia ficción", "Filosofía"],
-        "author": ["Felipe Vega"],
-        "description": "Una misión espacial se convierte en una reflexión sobre el propósito de la existencia.",
-        "isAvailable": true
-    },
-    {
-        "id": 18,
-        "ISBN": "978-7-890-12345-9",
-        "title": "Crónicas del inframundo",
-        "genre": ["Fantasía oscura"],
-        "author": ["Gabriela Paredes"],
-        "description": "Un guerrero debe enfrentarse a fuerzas demoníacas para rescatar a su amada.",
-        "isAvailable": false
-    },
-    {
-        "id": 19,
-        "ISBN": "978-8-543-21098-7",
-        "title": "Susurros en la nieve",
-        "genre": ["Romance", "Misterio"],
-        "author": ["Natalia Correa"],
-        "description": "Una escritora encuentra pistas de un antiguo amor en un remoto pueblo nevado.",
-        "isAvailable": true
-    },
-    {
-        "id": 20,
-        "ISBN": "978-9-210-98765-4",
-        "title": "La voz del desierto",
-        "genre": ["Historia", "Aventura"],
-        "author": ["Ignacio López"],
-        "description": "Un arqueólogo descubre un manuscrito que revela los secretos de una civilización perdida.",
-        "isAvailable": false
+{
+    "json": {
+        "authors": [
+            {
+                "id": 1,
+                "name": "Amanda Rivers",
+                "biography": "Amanda Rivers is an American novelist born in Seattle in 1984. Her work focuses on contemporary stories of love and personal growth, often with a touch of mystery. After working as an editor, she fully dedicated herself to writing and gained recognition for her immersive and emotional style.",
+                "books": [
+                    {
+                        "id": 1,
+                        "title": "Under the November Sky"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Shadows of the Heart"
+                    },
+                    {
+                        "id": 3,
+                        "title": "When Everything Stopped"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Mateo Santini",
+                "biography": "Mateo Santini, born in Florence in 1971, is an Italian author who blends history and fiction in his novels. He studied Art History and worked as a tour guide before turning to writing. His books are praised for their historical accuracy and memorable characters.",
+                "books": [
+                  {
+                    "id": 4,
+                    "title": "The Secrets of the Cathedral"
+                  },
+                  {
+                    "id": 5,
+                    "title": "The Watchmaker of Florence"
+                  },
+                  {
+                    "id": 6,
+                    "title": "The Medici's Legacy"
+                  }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Sofia Elkhart",
+                "biography": "Born in Johannesburg in 1990, Sofia Elkhart is a South African writer specializing in science fiction and fantasy. Her stories tackle themes like social inequality and ethical dilemmas in dystopian futures.",
+                "books": [
+                    {
+                        "id": 7,
+                        "title": "Echoes of Tomorrow"
+                    },
+                    {
+                       "id": 8,
+                       "title": "The Exodus of the Inmortals" 
+                    },
+                    {
+                        "id": 9,
+                        "title": "Beyond the Broken Stars"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Alejandro Cortázar",
+                "biography": "Alejandro Cortázar is a Mexican author born in Guadalajara in 1982. He is known for intertwining magical realism with popular culture. His writing reflects the richness of Mexican culture and the contradictions of its society.",
+                "books": [
+                    {
+                        "id": 10,
+                        "title": "The Days of Jade"
+                    },
+                    {
+                        "id": 11,
+                        "title": "The Last Hummingbird"
+                    },
+                    {
+                        "id": 12,
+                        "title": "Ashes in the Wind"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Claire Beaumont",
+                "biography": "Claire Beaumont was born in Lyon, France, in 1975. She is a writer of historical romance novels that transport readers to past eras full of intrigue and passion. Before becoming an author, she worked as a literature teacher.",
+                "books": [
+                    {
+                        "id": 13,
+                        "title": "Under the Paris Lights"
+                    },
+                    {
+                        "id": 14,
+                        "title": "The Lost Duke"
+                    },
+                    {
+                        "id": 15,
+                        "title": "Whispers in Versailles"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Dimitri Volkov",
+                "biography": "Dimitri Volkov, born in Saint Petersburg in 1968, is a Russian author known for his spy and suspense novels. With a background in journalism, Volkov uses his understanding of global politics to enrich his stories.",
+                "books": [
+                    {
+                        "id": 16,
+                        "title": "Operation Nemesis"
+                    },
+                    {
+                        "id": 17,
+                        "title": "The Invisible Traitor"
+                    },
+                    {
+                        "id": 18,
+                        "title": "Codes Below Zero"
+                    } 
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Natalia Ortega",
+                "biography": "Natalia Ortega, born in Buenos Aires in 1995, is a young Argentinian writer who combines poetry and prose in her works. Her books often explore themes of identity, migration, and feminism with a deeply introspective approach.",
+                "books": [
+                    {
+                        "id": 19,
+                        "title": "Roots in the Air"
+                    },
+                    {
+                        "id": 20,
+                        "title": "Voices of Paper"
+                    },
+                    {
+                        "id": 21,
+                        "title": "The River That Unites Us"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Oliver Ashcroft",
+                "biography": "Oliver Ashcroft was born in London in 1980 and is a British author specializing in psychological thrillers. After a career in criminology, he decided to channel his expertise into novels that keep readers on edge until the very last page.",
+                "books": [
+                    {
+                        "id": 22,
+                        "title": "The Perfect Tenant"
+                    },
+                    {
+                        "id": 23,
+                        "title": "Shadows in the Mind"
+                    },
+                    {
+                        "id": 24,
+                        "title": "The Impostor's Game"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Aisha Karim",
+                "biography": "Aisha Karim, originally from Marrakech, Morocco, was born in 1986. She is known for her contemporary novels that explore the clash between tradition and modernity in the Arab world, focusing on family and personal stories.",
+                "books": [
+                    {
+                        "id": 25,
+                        "title": "The House of Jasmine"
+                    },
+                    {
+                        "id": 26,
+                        "title": "Children of the Sand"
+                    },
+                    {
+                        "id": 27,
+                        "title": "Secrets Beneath the Veil"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "name": "Liam O'Connor",
+                "biography": "Liam O'Connor was born in Dublin in 1977 and is an Irish author who writes adventure and fantasy novels. Inspired by Celtic mythology, his works are celebrated for their rich narratives and imaginative worlds.",
+                "books": [
+                    {
+                        "id": 28,
+                        "title": "The Sword of the Ancestors"
+                    },
+                    {
+                        "id": 29,
+                        "title": "The Eternal Forest"
+                    },
+                    {
+                        "id": 30,
+                        "title": "Chants of Éire"
+                    }
+                ]
+            }
+        ],
+        "books": [
+            {
+                "id": 1,
+                "title": "Under the November Sky",
+                "ISBN": "978-1-234567-01-2",
+                "description": "A heartfelt journey of love and self-discovery as a young woman confronts her past while building a brighter future.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 1,
+                        "name": "Romance"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Shadows of the Heart",
+                "ISBN": "978-1-234567-02-9",
+                "description": "A story of heartbreak and redemption, where long-buried secrets come to light in the most unexpected ways.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 2,
+                        "name": "Drama"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "When Everything Stopped",
+                "ISBN": "978-1-234567-03-6",
+                "description": "In a world brought to a standstill, one woman must find strength and resilience to move forward against all odds.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 1,
+                        "name": "Amanda Rivers"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "title": "The Secrets of the Cathedral",
+                "ISBN": "978-1-234567-04-3",
+                "description": "An art historian unravels a centuries-old mystery hidden within the walls of a grand Italian cathedral.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "title": "The Watchmaker of Florence",
+                "ISBN": "978-1-234567-05-0",
+                "description": "A brilliant watchmaker gets caught in a web of intrigue and conspiracy in Renaissance Florence.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Mystery"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "title": "The Medici's Legacy",
+                "ISBN": "978-1-234567-06-7",
+                "description": "A gripping tale of power, betrayal, and the enduring influence of the Medici family.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 2,
+                        "name": "Mateo Santini"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Echoes of Tomorrow",
+                "ISBN": "978-1-234567-07-4",
+                "description": "In a future dystopia, humanity must grapple with the ethical consequences of technological progress.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 3,
+                        "name": "Sofia Elkhart"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "title": "The Exodus of the Immortals",
+                "ISBN": "978-1-234567-08-1",
+                "description": "A thrilling saga of immortal beings on the run from a collapsing utopia.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 3,
+                        "name": "Sofia Elkhart"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "title": "Beyond the Broken Stars",
+                "ISBN": "978-1-234567-09-8",
+                "description": "A desperate mission takes a small crew to the edges of the galaxy in search of hope.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 3,
+                        "name": "Sofia Elkhart"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 5,
+                        "name": "Adventure"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "title": "The Days of Jade",
+                "ISBN": "978-1-234567-10-4",
+                "description": "A story steeped in magical realism, where everyday life intertwines with the supernatural in the heart of Mexico.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 4,
+                        "name": "Alejandro Cortázar"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 6,
+                        "name": "Realism"
+                    }
+                ]
+            },
+            {
+                "id": 11,
+                "title": "The Last Hummingbird",
+                "ISBN": "978-1-234567-11-1",
+                "description": "A poetic exploration of love, loss, and the mysteries of nature through the lens of magical realism.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 4,
+                        "name": "Alejandro Cortázar"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 6,
+                        "name": "Realism"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "title": "Ashes in the Wind",
+                "ISBN": "978-1-234567-12-8",
+                "description": "A family saga set against the backdrop of a changing Mexico, where old traditions clash with modernity.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 4,
+                        "name": "Alejandro Cortázar"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 7,
+                        "name": "Family Saga"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "title": "Under the Paris Lights",
+                "ISBN": "978-1-234567-13-5",
+                "description": "A young woman finds unexpected love while uncovering secrets of the past in 1920s Paris.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 5,
+                        "name": "Claire Beaumont"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 1,
+                        "name": "Romance"
+                    }
+                ]
+            },
+            {
+                "id": 14,
+                "title": "The Lost Duke",
+                "ISBN": "978-1-234567-14-2",
+                "description": "A gripping tale of forbidden love and political intrigue in 18th-century France.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 5,
+                        "name": "Claire Beaumont"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 1,
+                        "name": "Romance"
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "title": "Whispers in Versailles",
+                "ISBN": "978-1-234567-15-9",
+                "description": "An enchanting romance set against the grandeur and decadence of Versailles.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                    "id": 5,
+                    "name": "Claire Beaumont"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 16,
+                "title": "Operation Nemesis",
+                "ISBN": "978-1-234567-16-6",
+                "description": "A high-stakes espionage thriller where an undercover agent must prevent an international conspiracy.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 6,
+                        "name": "Dimitri Volkov"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 8,
+                        "name": "Thriller"
+                    }
+                ]
+            },
+            {
+                "id": 17,
+                "title": "The Invisible Traitor",
+                "ISBN": "978-1-234567-17-3",
+                "description": "A story of betrayal and loyalty as a Russian spy races to uncover a mole within the organization.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 6,
+                        "name": "Dimitri Volkov"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Mystery"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "title": "Codes Below Zero",
+                "ISBN": "978-1-234567-18-0",
+                "description": "A gripping cold-war era tale of decoding secrets that could alter the course of history.",
+                "isAvailable": true,
+                "author": [
+                    {
+                        "id": 6,
+                        "name": "Dimitri Volkov"
+                    }
+                ],
+                "genre": [
+                    {
+                        "id": 8,
+                        "name": "Thriller"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "title": "Roots in the Air",
+                "ISBN": "978-1-234567-19-7",
+                "description": "A poetic exploration of belonging and identity as a young woman searches for her roots in a foreign land.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 7,
+                        "name": "Natalia Ortega"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "title": "Voices of Paper",
+                "ISBN": "978-1-234567-20-3",
+                "description": "A collection of interconnected short stories reflecting the struggles and triumphs of modern feminism.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 7,
+                        "name": "Natalia Ortega"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 6,
+                        "name": "Realism"
+                    }
+                ]
+            },
+            {
+                "id": 21,
+                "title": "The River That Unites Us",
+                "ISBN": "978-1-234567-21-0",
+                "description": "A family saga set in Buenos Aires, where generations are bound by the ever-flowing river of their homeland.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 7,
+                        "name": "Natalia Ortega"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 2,
+                        "name": "Drama"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "title": "The Perfect Tenant",
+                "ISBN": "978-1-234567-22-7",
+                "description": "A psychological thriller about a seemingly ideal tenant hiding a dark secret.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 8,
+                        "name": "Oliver Ashcroft"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 8,
+                        "name": "Thriller"
+                    }
+                ]
+            },
+            {
+                "id": 23,
+                "title": "Shadows in the Mind",
+                "ISBN": "978-1-234567-23-4",
+                "description": "A suspenseful tale of deception and obsession as a detective dives into the mind of a criminal.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 8,
+                        "name": "Oliver Ashcroft"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 8,
+                        "name": "Thriller"
+                    }
+                ]
+            },
+            {
+                "id": 24,
+                "title": "The Impostor's Game",
+                "ISBN": "978-1-234567-24-1",
+                "description": "A master manipulator plays a dangerous game, leaving everyone questioning what is real.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 8,
+                        "name": "Oliver Ashcroft"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 4,
+                        "name": "Mystery"
+                    }
+                ]
+            },
+            {
+                "id": 25,
+                "title": "The House of Jasmine",
+                "ISBN": "978-1-234567-25-8",
+                "description": "A moving family drama set in Morocco, where generations of women uncover long-buried secrets.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 9,
+                        "name": "Aisha Karim"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 3,
+                        "name": "Fiction"
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "title": "Children of the Sand",
+                "ISBN": "978-1-234567-26-5",
+                "description": "An evocative tale of tradition and change, as a family navigates the shifting sands of the modern world.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 9,
+                        "name": "Aisha Karim"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 2,
+                        "name": "Drama"
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "title": "Secrets Beneath the Veil",
+                "ISBN": "978-1-234567-27-2",
+                "description": "A compelling narrative of love and sacrifice set in the heart of Marrakech.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 9,
+                        "name": "Aisha Karim"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 1,
+                        "name": "Romance"
+                    }
+                ]
+            },
+            {
+                "id": 28,
+                "title": "The Sword of the Ancestors",
+                "ISBN": "978-1-234567-28-9",
+                "description": "An epic fantasy where a young warrior embarks on a quest to reclaim a magical sword tied to her family’s destiny.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 10,
+                        "name": "Liam O'Connor"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 9,
+                        "name": "Fantasy"
+                    }
+                ]
+            },
+            {
+                "id": 29,
+                "title": "The Eternal Forest",
+                "ISBN": "978-1-234567-29-6",
+                "description": "A breathtaking adventure inspired by Celtic mythology, where ancient forests hold both wonder and danger.",
+                "isAvailable": false,
+                "authors": [
+                    {
+                        "id": 10,
+                        "name": "Liam O'Connor"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 9,
+                        "name": "Fantasy"
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "title": "Chants of Éire",
+                "ISBN": "978-1-234567-30-2",
+                "description": "A spellbinding tale of magic and folklore in ancient Ireland, where songs wield unimaginable power.",
+                "isAvailable": true,
+                "authors": [
+                    {
+                        "id": 10,
+                        "name": "Liam O'Connor"
+                    }
+                ],
+                "genres": [
+                    {
+                        "id": 9,
+                        "name": "Fantasy"
+                    }
+                ]
+            }
+        ],
+        "genres": [
+            {
+                "id": 1,
+                "name": "Romance",
+                "books": [
+                    {
+                        "id": 1,
+                        "title": "Under the November Sky"
+                    },
+                    {
+                        "id": 13,
+                        "title": "Under the Paris Lights"
+                    },
+                    {
+                        "id": 14,
+                        "title": "The Lost Duke"
+                    },
+                    {
+                        "id": 27,
+                        "title": "Secrets Beneath the Veil"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Drama",
+                "books": [
+                    {
+                        "id": 2,
+                        "title": "Shadows of the Heart"
+                    },
+                    {
+                        "id": 21,
+                        "title": "The River That Unites Us"
+                    },
+                    {
+                        "id": 26,
+                        "title": "Children of the Sand"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Fiction",
+                "books": [
+                    {
+                        "id": 3,
+                        "title": "When Everything Stopped"
+                    },
+                    {
+                        "id": 4,
+                        "title": "The Secrets of the Cathedral"
+                    },
+                    {
+                        "id": 6,
+                        "title": "The Medici's Legacy"
+                    },
+                    {
+                        "id": 7,
+                        "title": "Echoes of Tomorrow"
+                    },
+                    {
+                        "id": 8,
+                        "title": "The Exodus of the Inmortals"
+                    },
+                    {
+                        "id": 19,
+                        "title": "Roots in the Air"
+                    },
+                    {
+                        "id": 25,
+                        "title": "The House of Jasmine"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Mystery",
+                "books": [
+                    {
+                        "id": 5,
+                        "title": "The Watchmaker of Florence"
+                    },
+                    {
+                        "id": 15,
+                        "title": "Whispers in Versailles"
+                    },
+                    {
+                        "id": 17,
+                        "title": "The Invisible Traitor"
+                    },
+                    {
+                        "id": 24,
+                        "title": "The Impostor's Game"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Adventure",
+                "books": [
+                    {
+                        "id": 9,
+                        "title": "Beyond the Broken Stars"
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "Realism",
+                "books": [
+                    {
+                        "id": 10,
+                        "title": "The Days of Jade"
+                    },
+                    {
+                        "id": 11,
+                        "title": "The Last Hummingbird"
+                    },
+                    {
+                        "id": 20,
+                        "title": "Voices of Paper"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Family Saga",
+                "books": [
+                    {
+                        "id": 12,
+                        "title": "Ashes in the Wind"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Thriller",
+                "books": [
+                    {
+                        "id": 16,
+                        "title": "Operation Nemesis"
+                    },
+                    {
+                        "id": 18,
+                        "title": "Codes Below Zero"
+                    },
+                    {
+                        "id": 22,
+                        "title": "The Perfect Tenant"
+                    },
+                    {
+                        "id": 23,
+                        "title": "Shadows in the Mind"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Fantasy",
+                "books": [
+                    {
+                        "id": 28,
+                        "title": "The Sword of the Ancestors"
+                    },
+                    {
+                        "id": 29,
+                        "title": "The Eternal Forest"
+                    },
+                    {
+                        "id": 30,
+                        "title": "Chants of Éire"
+                    }
+                ]
+            }
+        ],
+        "loans": [
+            {
+                "id": 1,
+                "loanDate": "2025-01-05",
+                "returnDate": "2025-01-20",
+                "member": {
+                  "id": 1,
+                  "name": "Ethan",
+                  "surname": "Williams"
+                },
+                "book": {
+                  "id": 1,
+                  "title": "Under the November Sky"
+                }
+            },
+            {
+                "id": 2,
+                "loanDate": "2025-01-06",
+                "returnDate": "2025-01-21",
+                "member": {
+                  "id": 2,
+                  "name": "Sophia",
+                  "surname": "Johnson"
+                },
+                "book": {
+                  "id": 5,
+                  "title": "The Watchmaker of Florence"
+                }
+            },
+            {
+                "id": 3,
+                "loanDate": "2025-01-07",
+                "returnDate": "2025-01-22",
+                "member": {
+                  "id": 3,
+                  "name": "Liam",
+                  "surname": "Brown"
+                },
+                "book": {
+                  "id": 6,
+                  "title": "The Medici's Legacy"
+                }
+            },
+            {
+                "id": 4,
+                "loanDate": "2025-01-08",
+                "returnDate": "2025-01-23",
+                "member": {
+                  "id": 4,
+                  "name": "Olivia",
+                  "surname": "Jones"
+                },
+                "book": {
+                  "id": 9,
+                  "title": "Beyond the Broken Stars"
+                }
+            },
+            {
+                "id": 5,
+                "loanDate": "2025-01-09",
+                "returnDate": "2025-01-24",
+                "member": {
+                  "id": 5,
+                  "name": "Noah",
+                  "surname": "Garcia"
+                },
+                "book": {
+                  "id": 7,
+                  "title": "Echoes of Tomorrow"
+                }
+            },
+            {
+                "id": 6,
+                "loanDate": "2025-01-10",
+                "returnDate": "2025-01-25",
+                "member": {
+                  "id": 6,
+                  "name": "Ava",
+                  "surname": "Martinez"
+                },
+                "book": {
+                  "id": 15,
+                  "title": "Whispers in Versailles"
+                }
+            },
+            {
+                "id": 7,
+                "loanDate": "2025-01-11",
+                "returnDate": "2025-01-26",
+                "member": {
+                  "id": 7,
+                  "name": "Isabella",
+                  "surname": "Lopez"
+                },
+                "book": {
+                  "id": 8,
+                  "title": "The Exodus of the Immortals"
+                }
+            },
+            {
+                "id": 8,
+                "loanDate": "2025-01-12",
+                "returnDate": "2025-01-27",
+                "member": {
+                  "id": 8,
+                  "name": "James",
+                  "surname": "Rodriguez"
+                },
+                "book": {
+                  "id": 12,
+                  "title": "Ashes in the Wind"
+                }
+            },
+            {
+                "id": 9,
+                "loanDate": "2025-01-13",
+                "returnDate": "2025-01-28",
+                "member": {
+                  "id": 9,
+                  "name": "Lucas",
+                  "surname": "Hernandez"
+                },
+                "book": {
+                  "id": 14,
+                  "title": "The Lost Duke"
+                }
+            },
+            {
+                "id": 10,
+                "loanDate": "2025-01-14",
+                "returnDate": "2025-01-29",
+                "member": {
+                  "id": 10,
+                  "name": "Mia",
+                  "surname": "Gonzalez"
+                },
+                "book": {
+                  "id": 22,
+                  "title": "The Perfect Tenant"
+                }
+            }
+        ],
+        "members": [
+            {
+              "id": 1,
+              "name": "Ethan",
+              "surname": "Williams",
+              "loans": [
+                {
+                  "id": 1,
+                  "book": {
+                    "id": 1,
+                    "title": "Under the November Sky"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Sophia",
+              "surname": "Johnson",
+              "loans": [
+                {
+                  "id": 2,
+                  "book": {
+                    "id": 5,
+                    "title": "The Watchmaker of Florence"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Liam",
+              "surname": "Brown",
+              "loans": [
+                {
+                  "id": 3,
+                  "book": {
+                    "id": 6,
+                    "title": "The Medici's Legacy"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Olivia",
+              "surname": "Jones",
+              "loans": [
+                {
+                  "id": 4,
+                  "book": {
+                    "id": 9,
+                    "title": "Beyond the Broken Stars"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "name": "Noah",
+              "surname": "Garcia",
+              "loans": [
+                {
+                  "id": 5,
+                  "book": {
+                    "id": 7,
+                    "title": "Echoes of Tomorrow"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "name": "Ava",
+              "surname": "Martinez",
+              "loans": [
+                {
+                  "id": 6,
+                  "book": {
+                    "id": 15,
+                    "title": "Whispers in Versailles"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "name": "Isabella",
+              "surname": "Lopez",
+              "loans": [
+                {
+                  "id": 7,
+                  "book": {
+                    "id": 8,
+                    "title": "The Exodus of the Immortals"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "name": "James",
+              "surname": "Rodriguez",
+              "loans": [
+                {
+                  "id": 8,
+                  "book": {
+                    "id": 12,
+                    "title": "Ashes in the Wind"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "name": "Lucas",
+              "surname": "Hernandez",
+              "loans": [
+                {
+                  "id": 9,
+                  "book": {
+                    "id": 14,
+                    "title": "The Lost Duke"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Mia",
+              "surname": "Gonzalez",
+              "loans": [
+                {
+                  "id": 10,
+                  "book": {
+                    "id": 22,
+                    "title": "The Perfect Tenant"
+                  }
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "name": "Charlotte",
+              "surname": "Wilson",
+              "loans": []
+            },
+            {
+              "id": 12,
+              "name": "Benjamin",
+              "surname": "Anderson",
+              "loans": []
+            },
+            {
+              "id": 13,
+              "name": "Amelia",
+              "surname": "Thomas",
+              "loans": []
+            },
+            {
+              "id": 14,
+              "name": "Elijah",
+              "surname": "Taylor",
+              "loans": []
+            },
+            {
+              "id": 15,
+              "name": "Harper",
+              "surname": "Moore",
+              "loans": []
+            },
+            {
+              "id": 16,
+              "name": "Henry",
+              "surname": "Martin",
+              "loans": []
+            },
+            {
+              "id": 17,
+              "name": "Ella",
+              "surname": "Lee",
+              "loans": []
+            },
+            {
+              "id": 18,
+              "name": "Alexander",
+              "surname": "Perez",
+              "loans": []
+            },
+            {
+              "id": 19,
+              "name": "Grace",
+              "surname": "White",
+              "loans": []
+            },
+            {
+              "id": 20,
+              "name": "Samuel",
+              "surname": "Harris",
+              "loans": []
+            }
+        ]
     }
-]
+}

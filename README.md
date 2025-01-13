@@ -40,7 +40,17 @@
             <p><strong>4. </strong> Go to the <a href="https://github.com/EvaAlonso/LibraryBackend">Backend Repository</a> and read the Installation Guide.</p>
         </div>
         <div class="after-backend">
-            <p><strong>5. </strong> Once you get the backend succesfully installed and working, open the project with Git Bash and write the code below:</p>
+            <p><strong>5. </strong> Once you get the backend succesfully installed and working, create the .env using the code below:</p>
+            <pre>
+            <code class="language-bash">$ cp .env.example .env</code>
+            </pre>
+            <p><strong>6. </strong> Change the example variables into the ones specified below:</p>
+            <pre>
+            <code>
+            REACT_APP_LIBRARY_API=http://localhost:8080/api/books
+            </code>
+            </pre>
+            <p><strong>7. </strong> Once you get the backend succesfully installed and working, open the project with Git Bash and write the code below:</p>
             <pre>
             <code class="language-bash">$ pnpm i</code>
             <code class="language-bash">$ pnpm run dev</code>

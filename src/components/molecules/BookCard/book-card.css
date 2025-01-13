@@ -17,4 +17,10 @@
 
 .book-card-info-container {
     text-align: center;
+
+}
+
+.book-card-container a {
+    text-decoration: none;
+    padding: 10px;
 }

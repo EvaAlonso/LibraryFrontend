@@ -6,7 +6,7 @@ function BtnLoan({ bookId, setShowModal, setModalMessage, setReturnDate, setShow
   const [surname, setSurname] = useState('');
 
   const handleLoan = async () => {
-    // Mostrar el formulario de préstamo cuando el botón es presionado
+    
     setShowLoanForm(true);
 
     if (!name || !surname) {
@@ -16,16 +16,14 @@ function BtnLoan({ bookId, setShowModal, setModalMessage, setReturnDate, setShow
     }
 
     try {
-      // Hacer una solicitud al backend para obtener el memberId usando el nombre y apellido
+      
       const response = await axios.get('/members', {
         params: { name: name, surname: surname }
       });
 
-      // Verificar si se encontró el miembro
       if (response.status === 200 && response.data.length > 0) {
-        const memberId = response.data[0].id; // Obtener el id del primer miembro en la respuesta
+        const memberId = response.data[0].id; 
 
-        // Realizar el préstamo con el bookId y el memberId
         const loanResponse = await axios.post('/loans', null, {
           params: {
             bookId: bookId,
@@ -34,10 +32,10 @@ function BtnLoan({ bookId, setShowModal, setModalMessage, setReturnDate, setShow
         });
 
         if (loanResponse.status === 201) {
-          // Calcular la fecha de devolución (un mes después)
+
           const currentDate = new Date();
           currentDate.setMonth(currentDate.getMonth() + 1);
-          const formattedDate = currentDate.toISOString().split('T')[0]; // Formato YYYY-MM-DD
+          const formattedDate = currentDate.toISOString().split('T')[0]; 
           setReturnDate(formattedDate);
           setShowDate(true);
           setModalMessage(`El libro ha sido prestado con éxito. Fecha de devolución: ${formattedDate}`);

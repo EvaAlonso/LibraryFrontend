@@ -17,6 +17,9 @@ importers:
       json-server:
         specifier: 1.0.0-beta.3
         version: 1.0.0-beta.3
+      ldrs:
+        specifier: ^1.0.2
+        version: 1.0.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -26,9 +29,15 @@ importers:
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
+      react-icons:
+        specifier: ^5.4.0
+        version: 5.4.0(react@18.3.1)
       react-router-dom:
         specifier: ^7.1.1
         version: 7.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-switch:
+        specifier: ^7.1.0
+        version: 7.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       '@eslint/js':
         specifier: ^9.17.0
@@ -1157,6 +1166,9 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
+  ldrs@1.0.2:
+    resolution: {integrity: sha512-sYJmivdkIiHrUEqTrEWccBoLdaENpzbzkABI5rk8rRxTXrg9i2xVuDvUUuhOhJY3RmQyaoxs046pM1DCRdcIpg==}
+
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
@@ -1323,6 +1335,11 @@ packages:
     peerDependencies:
       react: ^18.3.1
 
+  react-icons@5.4.0:
+    resolution: {integrity: sha512-7eltJxgVt7X64oHh6wSWNwwbKTCtMfK35hcjvJS0yxEAhPM8oUKdS3+kqaW1vicIltw+kR2unHaa12S9pPALoQ==}
+    peerDependencies:
+      react: '*'
+
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
@@ -1345,6 +1362,12 @@ packages:
     peerDependenciesMeta:
       react-dom:
         optional: true
+
+  react-switch@7.1.0:
+    resolution: {integrity: sha512-4xVeyImZE8QOTDw2FmhWz0iqo2psoRiS7XzdjaZBCIP8Dzo3rT0esHUjLee5WsAPSFXWWl1eVA5arp9n2C6yQA==}
+    peerDependencies:
+      react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react-transition-group@4.4.5:
     resolution: {integrity: sha512-pZcd1MCJoiKiBR2NRxeCRg13uCXbydPnmB4EOeRrY7480qNWO8IIgQG6zlDkm6uRMsURXPuKq0GWtiM59a5Q6g==}
@@ -2746,6 +2769,8 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
+  ldrs@1.0.2: {}
+
   levn@0.4.1:
     dependencies:
       prelude-ls: 1.2.1
@@ -2913,6 +2938,10 @@ snapshots:
       react: 18.3.1
       scheduler: 0.23.2
 
+  react-icons@5.4.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+
   react-is@16.13.1: {}
 
   react-lifecycles-compat@3.0.4: {}
@@ -2931,6 +2960,12 @@ snapshots:
       set-cookie-parser: 2.7.1
       turbo-stream: 2.4.0
     optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
+
+  react-switch@7.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
   react-transition-group@4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):

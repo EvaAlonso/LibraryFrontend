@@ -4,6 +4,7 @@ import "./book-card.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const BookCard = () => {
+    
   return (
     <div className="book-card-container d-flex flex-column w-25 mt-5">
     

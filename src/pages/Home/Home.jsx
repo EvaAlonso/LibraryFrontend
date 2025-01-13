@@ -1,5 +1,7 @@
+import { useState } from "react";
 import BookCard from "../../components/molecules/BookCard/BookCard"
 import Header from "../../components/molecules/Header/Header"
+import axios from 'axios';
 import "../Home/home.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -7,6 +9,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 
 const Home = () => {
+
+  const [books, setBooks] = useState([]);
+
   return (
     <>
       <Header />
